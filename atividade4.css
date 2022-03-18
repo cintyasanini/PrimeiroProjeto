@@ -1,0 +1,192 @@
+/*CSS Reset*/
+
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+body{
+    background-color: #c5dbf2;
+}
+
+main{
+    position:relative;
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+#menu1{
+    position:relative;
+    width:100%;
+    height:auto;  
+}
+
+#menu1 a{
+    float:left;
+    text-decoration:none;
+    font-family: verdana;
+    font-size:13px;
+    
+}
+
+#link{
+    color: #67696b;
+    padding:5px;
+    margin:20px;
+}
+
+#imagem1{
+    float: left;
+    padding-top:8px;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+#imagem2{
+    float:left;
+    padding-top:8px;
+}
+
+#botao1 {
+    border:1px solid;
+    border-color:#67696b;
+    font-size: 10;
+    color: #67696b;
+    padding:10px;
+    margin:10px;
+}
+
+#botao2 {
+    color:#fff;
+    background-color: #007C89;
+    padding: 10px;
+    margin:10px;
+}
+
+#textos{
+    position: relative;
+    clear:left ;
+}
+
+#texto{
+    position: relative;
+    width:30%;
+    height:auto;
+    clear: left;
+    top: 150px;
+    left: 300px;
+}
+
+#botao3{
+    position: relative;
+    width:35%;
+    height:auto;
+    clear: left;
+    top: 150px;
+    left: 300px;
+}
+
+@font-face {
+    font-family: nova_fonte;
+    src: url(fontes/LibreBaskerville-Regular.ttf);
+}
+
+.fonte1{
+    font-family: nova_fonte;
+    font-size: 40px;
+    text-align:left;
+    color: #241C15;
+}
+
+.fonte2{
+    font-size: 20px;
+    text-align:left;
+    font-family: arial;
+    color: #67696b;
+}
+
+#botao3 {
+    color:#fff;
+    background-color: #007c89;
+    text-decoration: none;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#fotos {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 750px;
+    top:250px;
+    background-color: #f7d5c5;
+    border: 1px solid #000;
+    border-radius: 5%;
+    color:#F98567;
+    z-index: 1;
+}
+
+#ponto{
+    padding-left: 20px;
+    padding-top:20px ;
+}
+
+#carrinho{
+    padding-left: 300px;
+}
+
+#txt{
+    text-align: center;
+}
+
+#figura2{
+    padding: 20px;
+}
+
+#fotos2{
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left:1000px;
+    height:180px;
+    width: 15%;
+    background-color: #fff;
+    border-right: 3px solid #000;
+    border-bottom: 3px solid #000 ;
+    border-top: 1px solid #000 ;
+    border-left: 1px solid #000 ;
+    border-radius: 5%;
+    box-shadow: 0px 3px 5px 0px;
+
+}
+
+#botao4{
+    color:#fff;
+    background-color: #007c89;
+    text-decoration: none;
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 25px;
+    
+    padding: 5px;
+}
+
+#txt2{
+    background-color: #EEEEEC;
+    text-align: center;
+    border:1px #000 solid;
+    border-radius: 5%;
+}
+
+#img4{
+    align-items: center;
+    margin-bottom: 5px;
+}
